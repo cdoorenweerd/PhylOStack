@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Silent installation script for Miniconda2, ETE3 and PartitionFinder v2 on Linux Ubuntu 14.04
+# Installation script for Miniconda2, ETE3 and PartitionFinder v2 on Linux Ubuntu 14.04
 # PartitionFinder global executable: partitionfinder
 
 # miniconda, partitionfinder dependencies

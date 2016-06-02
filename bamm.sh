@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Silent installation script for BAMM v2.5 on Linux Ubuntu 14.04
+# Installation script for BAMM v2.5 on Linux Ubuntu 14.04
 # BAMM global executable: bamm
 
 # dependencies

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Silent installation script for latest version of R on Linux Ubuntu 14.04
+# Installation script for latest version of R on Linux Ubuntu 14.04
 # R interface executable: R
 # R script executable: Rscript
 # https://www.digitalocean.com/community/tutorials/how-to-set-up-r-on-ubuntu-14-04
@@ -20,4 +20,3 @@ sudo su - -c "R -e \"install.packages('dendextend', repos = 'http://cran.rstudio
 sudo su - -c "R -e \"install.packages('dendextendRcpp', repos = 'http://cran.rstudio.com/')\""
 sudo su - -c "R -e \"install.packages('colorspace', repos = 'http://cran.rstudio.com/')\""
 sudo su - -c "R -e \"install.packages('ape', repos = 'http://cran.rstudio.com/')\""
-# sudo su - -c "R -e \"devtools::install_github('daattali/shinyjs')\""

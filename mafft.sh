@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Silent installation script for MAFFT v7.237 on Linux Ubuntu 14.04
+# Installation script for MAFFT v7.237 on Linux Ubuntu 14.04
 # MAFFT global executable: mafft
 
 # dependencies

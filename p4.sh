@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Silent installation script for the P4 phylogenetics package on Linux Ubuntu 14.04
+# Installation script for the P4 phylogenetics package on Linux Ubuntu 14.04
 # http://p4.nhm.ac.uk/installation.html
 # P4 global executable: p4
 
