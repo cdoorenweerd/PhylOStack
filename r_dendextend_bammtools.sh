@@ -20,3 +20,6 @@ sudo su - -c "R -e \"install.packages('dendextend', repos = 'http://cran.rstudio
 sudo su - -c "R -e \"install.packages('dendextendRcpp', repos = 'http://cran.rstudio.com/')\""
 sudo su - -c "R -e \"install.packages('colorspace', repos = 'http://cran.rstudio.com/')\""
 sudo su - -c "R -e \"install.packages('ape', repos = 'http://cran.rstudio.com/')\""
+sudo su - -c "R -e \"install.packages('geiger', repos = 'http://cran.rstudio.com/')\""
+sudo su - -c "R -e \"install.packages('coda', repos = 'http://cran.rstudio.com/')\""
+sudo su - -c "R -e \"install.packages('BAMMtools', repos = 'http://cran.rstudio.com/')\""
