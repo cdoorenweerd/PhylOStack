@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Installation script for Miniconda2, ETE3 and PartitionFinder v2 on Linux Ubuntu 14.04
+# Installation script for Miniconda2, ETE3, ipython and PartitionFinder v2 on Linux Ubuntu 14.04
 # PartitionFinder global executable: partitionfinder
 
 # miniconda, partitionfinder dependencies
@@ -14,6 +14,10 @@ cd
 export PATH="/usr/local/Miniconda/bin:$PATH"
 sudo chown ubuntu:root /usr/local/Miniconda -R
 conda install --yes -c blaze scipy pyparsing pandas pytables scikit-learn
+
+# ipython
+conda update conda
+conda install -c ipyrad ipyrad
 
 # ete3
 conda install --yes -c etetoolkit ete3 ete3_external_apps
