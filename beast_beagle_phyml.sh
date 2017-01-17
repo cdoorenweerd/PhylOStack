@@ -1,9 +1,8 @@
 #!/bin/sh
 #
 # Installation script for BEAST v2.3.2 with Beagle 
-# and PhyML including Phytime on Linux Ubuntu 14.04
+# and Phytime v3.3 from the Phyml package on Linux Ubuntu 14.04
 # BEAST global executable: beast
-# Phyml global executable: phyml
 # Phytime global executable: phytime
 # TreeAnnotator global executable: treeannotator
 
@@ -16,7 +15,15 @@ echo debconf shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/deb
 sudo apt-get -y install oracle-java8-installer
 sudo apt-get -y install oracle-java8-set-default
 sudo apt-get -y install build-essential autoconf automake libtool subversion pkg-config
-sudo apt-get -y install phyml
+
+# phytime
+cd /usr/local/
+git clone https://github.com/stephaneguindon/phyml.git
+cd phyml
+sudo ./autogen.sh
+sudo ./configure --enable-phytime
+sudo make
+sudo ln -s /usr/local/phyml/src/phytime /usr/bin/phytime
 
 # beagle
 cd /usr/local
