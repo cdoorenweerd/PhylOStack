@@ -17,7 +17,7 @@ conda install --yes -c blaze scipy pyparsing pandas pytables scikit-learn
 
 # ipython
 conda update conda
-conda install -c ipyrad ipyrad
+conda install --yes -c ipyrad ipyrad
 
 # ete3
 conda install --yes -c etetoolkit ete3 ete3_external_apps
