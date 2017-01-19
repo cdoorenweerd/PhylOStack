@@ -8,25 +8,25 @@ Download and unpack or clone the repository and execute the install_all.sh scrip
 
     bash /path/to/PhylOStack/install_all.sh
 
-If this confuses you, try [these instructions](https://github.com/naturalis/openstack-docs/wiki/Howto--Installing-a-PhyloStack).
+If this confuses you, try [these instructions](https://github.com/cdoorenweerd/PhylOStack/wiki/Installing-a-PhyloStack).
 
 
 Cookbook instructions
 =====================
 
-- Create alignments with [MAFFT](https://github.com/naturalis/openstack-docs/wiki/Howto--using-MAFFT-on-OpenStack)
-- Determine the right partitioning scheme and evolutionary model with [PartitionFinder](https://github.com/naturalis/openstack-docs/wiki/Howto:-Installing-and-using-PartitionFinder-on-OpenStack)
-- Bayesian inference of topologies with [Exabayes](https://github.com/naturalis/openstack-docs/wiki/Howto--Installing-and-using-Exabayes-on-OpenStack)
-- Maximum likelihood estimations of topologies and rogue taxa pruning with [RAxML and RogueNaRok](https://github.com/naturalis/openstack-docs/wiki/Howto:-Installing-and-using-RAxML-on-OpenStack)
-- Compare topologies with [Dendextend](https://github.com/naturalis/openstack-docs/wiki/Howto--Using-Dendextend-on-OpenStack)
-- Combine support values from two trees using the [P4 combine support values script](https://github.com/naturalis/openstack-docs/wiki/Howto--Using-P4_combine-on-OpenStack)
-- Divergence time analyses with [BEAST](https://github.com/naturalis/openstack-docs/wiki/Howto--Installing-and-using-BEAST-on-OpenStack)
-- Divergence time analyses with [PhyTime](https://github.com/naturalis/openstack-docs/wiki/Howto--Using-Phytime-on-OpenStack)
-- Bayesian diversification analyses with [BAMM](https://github.com/naturalis/openstack-docs/wiki/Howto--Using-BAMM-on-OpenStack)
+- Create alignments with [MAFFT](https://github.com/cdoorenweerd/PhylOStack/wiki/MAFFT-on-OpenStack)
+- Determine the right partitioning scheme and evolutionary model with [PartitionFinder](https://github.com/cdoorenweerd/PhylOStack/wiki/PartitionFinder-on-OpenStack)
+- Bayesian inference of topologies with [Exabayes](https://github.com/cdoorenweerd/PhylOStack/wiki/Exabayes-on-OpenStack)
+- Maximum likelihood estimations of topologies and rogue taxa pruning with [RAxML and RogueNaRok](https://github.com/cdoorenweerd/PhylOStack/wiki/RAxML-on-OpenStack)
+- Compare topologies with [Dendextend](https://github.com/cdoorenweerd/PhylOStack/wiki/Dendextend-on-OpenStack)
+- Combine support values from two trees using the [P4 combine support values script](https://github.com/cdoorenweerd/PhylOStack/wiki/P4_combine-on-OpenStack)
+- Divergence time analyses with [BEAST](https://github.com/cdoorenweerd/PhylOStack/wiki/BEAST-on-OpenStack)
+- Divergence time analyses with [PhyTime](https://github.com/cdoorenweerd/PhylOStack/wiki/Phytime-on-OpenStack)
+- Bayesian diversification analyses with [BAMM](https://github.com/cdoorenweerd/PhylOStack/wiki/BAMM-on-OpenStack)
 
 
-Software suite
-==============
+Software suite websites
+=======================
 
 - [Miniconda2](https://www.continuum.io/why-anaconda) ~1.6 GB
 - [ETE3 toolkit](http://etetoolkit.org) ~100 MB
