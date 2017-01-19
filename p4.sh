@@ -12,6 +12,6 @@ sudo apt-get -y install python-numpy python-scipy libgsl0-dev python-dev
 cd /usr/local
 sudo git clone https://github.com/pgfoster/p4-phylogenetics
 cd p4-phylogenetics
-git checkout 67c7da7 # version 1.2
+sudo git checkout 67c7da7 # version 1.2
 sudo python setup.py build
 sudo python setup.py install
