@@ -1,0 +1,8 @@
+title: PhylOStack
+description: Phylogenetic analyses in the cloud
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
