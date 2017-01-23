@@ -23,16 +23,33 @@ Cookbook instructions
 - Divergence time analyses with [BEAST](https://github.com/cdoorenweerd/PhylOStack/wiki/BEAST-on-OpenStack)
 - Divergence time analyses with [PhyTime](https://github.com/cdoorenweerd/PhylOStack/wiki/Phytime-on-OpenStack)
 - Bayesian diversification analyses with [BAMM](https://github.com/cdoorenweerd/PhylOStack/wiki/BAMM-on-OpenStack)
+- Combine multiple analyses in a single [pipeline](https://github.com/cdoorenweerd/PhylOStack/wiki/Pipelines)
 
 
-Software suite websites
-=======================
+References: software websites
+=============================
+
+Python based
+------------
 
 - [Miniconda2](https://www.continuum.io/why-anaconda) ~1.6 GB
 - [ETE3 toolkit](http://etetoolkit.org) ~100 MB
 - [PartitionFinder v2](http://www.robertlanfear.com/partitionfinder/) ~1 GB
+- [ipyrad v0.5.15](http://ipyrad.readthedocs.io/)
 - [P4 v1.2](http://p4.nhm.ac.uk/index.html) ~200 MB
-- [R with Dendextend and BAMMtools packages](https://github.com/talgalili/dendextend) ~300 MB
+
+
+R based
+-------
+
+- [R](https://www.r-project.org/) ~300 MB
+- [R Dendextend package](https://github.com/talgalili/dendextend)
+- [R BAMMtools package](http://bamm-project.org)
+
+
+C++ or other languages
+----------------------
+
 - [RAxML v8 AVX2 PTHREADS](http://sco.h-its.org/exelixis/web/software/raxml/index.html) ~80 MB
 - [MAFFT v7.273](http://mafft.cbrc.jp/alignment/software/) ~10 MB
 - [Exabayes v1.4.1 AVX open-MPI](http://sco.h-its.org/exelixis/web/software/exabayes/index.html) ~200 MB
