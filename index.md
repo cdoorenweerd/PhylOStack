@@ -20,7 +20,7 @@ Cookbook instructions
 - Maximum likelihood estimations of topologies and rogue taxa pruning with [RAxML and RogueNaRok](https://github.com/cdoorenweerd/PhylOStack/wiki/RAxML-on-OpenStack)
 - Compare topologies with [Dendextend](https://github.com/cdoorenweerd/PhylOStack/wiki/Dendextend-on-OpenStack)
 - Combine support values from two trees using the [P4 combine support values script](https://github.com/cdoorenweerd/PhylOStack/wiki/P4_combine-on-OpenStack)
-- Collapse nodes in a tree below a set support value using the [P4 collapse script](https://github.com/cdoorenweerd/PhylOStack/wiki/P4_combine-on-OpenStack)
+- Collapse nodes in a tree below a set support value using the [P4 collapse script](https://github.com/cdoorenweerd/PhylOStack/wiki/P4_collapse-on-OpenStack)
 - Divergence time analyses with [BEAST](https://github.com/cdoorenweerd/PhylOStack/wiki/BEAST-on-OpenStack)
 - Divergence time analyses with [PhyTime](https://github.com/cdoorenweerd/PhylOStack/wiki/Phytime-on-OpenStack)
 - Bayesian diversification analyses with [BAMM](https://github.com/cdoorenweerd/PhylOStack/wiki/BAMM-on-OpenStack)
