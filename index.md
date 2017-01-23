@@ -1,6 +1,6 @@
-Latest release: v1.4 - [version history](https://github.com/cdoorenweerd/PhylOStack/releases)
+Latest release: v1.5 - [version history](https://github.com/cdoorenweerd/PhylOStack/releases)
 
-With the PhylOStack a suite of phylogenetic software is easily installed using a series of installation scripts tailored for Ubuntu 14.04. Cookbook instructions for using the software cover three basic steps: preparing input data, running an analysis and obtaining the output. The instructions are written for the Naturalis [OpenStack](https://www.openstack.org) cloud environment but should work in any cloud environment with AVX compatible hardware configuration.
+With the PhylOStack a suite of phylogenetic software is easily installed using a series of installation scripts tailored for Linux Ubuntu 14.04. Cookbook instructions for using the software cover three basic steps: preparing input data, running an analysis and obtaining the output. The instructions are written for the Naturalis [OpenStack](https://www.openstack.org) cloud environment but should work in any cloud environment with AVX compatible hardware configuration.
 
 Installation
 ============
@@ -27,8 +27,8 @@ Cookbook instructions
 - Combine multiple analyses in a single [pipeline](https://github.com/cdoorenweerd/PhylOStack/wiki/Pipelines)
 
 
-References: software websites
-=============================
+Software suite: websites
+========================
 
 Python based
 ------------
