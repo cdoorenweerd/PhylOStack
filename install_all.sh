@@ -10,4 +10,5 @@ bash /usr/local/PhylOStack/miniconda_ete3_partitionfinder.sh
 bash /usr/local/PhylOStack/p4.sh
 bash /usr/local/PhylOStack/raxml_rnr.sh
 bash /usr/local/PhylOStack/r_dendextend_bammtools.sh
+bash /usr/local/PhylOStack/structure.sh
 sudo reboot
