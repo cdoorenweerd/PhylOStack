@@ -1,4 +1,4 @@
-Latest release: v1.5 - [version history](https://github.com/cdoorenweerd/PhylOStack/releases)
+Latest release: v1.6 - [version history](https://github.com/cdoorenweerd/PhylOStack/releases)
 
 With the PhylOStack a suite of phylogenetic software is easily installed using a series of installation scripts tailored for Linux Ubuntu 14.04. Cookbook instructions for using the software cover three basic steps: preparing input data, running an analysis and obtaining the output. The instructions are written for the Naturalis [OpenStack](https://www.openstack.org) cloud environment but should work in any cloud environment with AVX compatible hardware configuration.
 
@@ -25,6 +25,7 @@ Cookbook instructions
 - Divergence time analyses with [PhyTime](https://github.com/cdoorenweerd/PhylOStack/wiki/Phytime-on-OpenStack)
 - Bayesian diversification analyses with [BAMM](https://github.com/cdoorenweerd/PhylOStack/wiki/BAMM-on-OpenStack)
 - Combine multiple analyses in a single [pipeline](https://github.com/cdoorenweerd/PhylOStack/wiki/Pipelines)
+- Multicore population structure analyses with [Structure and the StrAuto python wrapper](https://github.com/cdoorenweerd/PhylOStack/wiki/StrAuto-on-OpenStack) 
 
 
 Software suite: websites
@@ -38,6 +39,7 @@ Python based
 - [PartitionFinder v2](http://www.robertlanfear.com/partitionfinder/) ~1 GB
 - [ipyrad v0.5.15](http://ipyrad.readthedocs.io/)
 - [P4 v1.2](http://p4.nhm.ac.uk/index.html) ~200 MB
+- [StrAuto v1.0](http://www.crypticlineage.net/pages/software.html)
 
 
 R based
@@ -58,3 +60,4 @@ C++ or other languages
 - [BEAST v2.3.2](http://beast2.org) ~600 MB
 - [PhyML v2 20120412-2](http://www.atgc-montpellier.fr/phyml/) ~20 MB
 - [BAMM v2.5](http://bamm-project.org) ~360 MB
+- [Structure v2.3.4 ](http://pritchardlab.stanford.edu/structure.html)
