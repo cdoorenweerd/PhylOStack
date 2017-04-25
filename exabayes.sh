@@ -13,6 +13,7 @@ sudo apt-get -y install git htop build-essential autoconf openmpi-bin libopenmpi
 cd /usr/local/
 sudo wget http://sco.h-its.org/exelixis/resource/download/software/exabayes-1.5.tar.gz
 sudo tar -xzf exabayes-1.5.tar.gz -C /usr/local/
+cd /usr/local/exabayes-1.5/
 sudo ./configure --enable-mpi && make
 sudo ln -s /usr/local/exabayes-1.5/bin/bin/exabayes /usr/bin/exabayes
 sudo ln -s /usr/local/exabayes-1.5/bin/bin/consense /usr/bin/consense
