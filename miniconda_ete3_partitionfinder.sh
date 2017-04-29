@@ -7,8 +7,11 @@
 cd /usr/local/
 sudo wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
 sudo bash Miniconda2-latest-Linux-x86_64.sh -b -p /usr/local/Miniconda
+
+#remove first 6 chars(PATH=")from environment line
 sudo sed -r -i 's/.{6}//' /etc/environment
-sudo sed -i 's|^|PATH="/usr/local/Miniconda/bin:|' /etc/environment
+#add local and miniconda path local local priorty
+sudo sed -i 's|^|PATH="/usr/local/bin:/usr/local/Miniconda/bin:|' /etc/environment
 sudo rm /usr/local/Miniconda2-latest-Linux-x86_64.sh
 cd
 export PATH="/usr/local/Miniconda/bin:$PATH"
