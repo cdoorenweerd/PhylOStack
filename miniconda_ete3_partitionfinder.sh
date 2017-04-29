@@ -11,19 +11,22 @@ sudo bash Miniconda2-latest-Linux-x86_64.sh -b -p /usr/local/Miniconda
 #remove first 6 chars(PATH=")from environment line
 sudo sed -r -i 's/.{6}//' /etc/environment
 #add local and miniconda path local local priorty
-sudo sed -i 's|^|PATH="/usr/bin:/usr/local/Miniconda/bin:|' /etc/environment
+sudo sed -i 's|^|PATH="/usr/local/Miniconda/bin:|' /etc/environment
+# prevent conflict in gcc version for BAMM and Exabayes
+sudo rm /usr/local/Miniconda2/bin/gcc*
+sudo rm /usr/local/Miniconda2/bin/mpi*
+# cleanup
 sudo rm /usr/local/Miniconda2-latest-Linux-x86_64.sh
 cd
-export PATH="/usr/local/Miniconda/bin:$PATH"
 sudo chown ubuntu:root /usr/local/Miniconda -R
-conda install --yes -c blaze scipy pyparsing pandas pytables scikit-learn
+/usr/local/Miniconda/bin/conda install --yes -c blaze scipy pyparsing pandas pytables scikit-learn
 
 # ipython
-conda update conda
-conda install --yes -c ipyrad ipyrad
+/usr/local/Miniconda/bin/conda update conda
+/usr/local/Miniconda/bin/conda install --yes -c ipyrad ipyrad
 
 # ete3
-conda install --yes -c etetoolkit ete3 ete3_external_apps
+/usr/local/Miniconda/bin/conda install --yes -c etetoolkit ete3 ete3_external_apps
 
 # partitionfinder
 cd /usr/local/
