@@ -6,8 +6,7 @@
 # dependencies
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo apt-get -y update
-sudo apt-get -y install cmake build-essential gcc-4.9 g++-4.9
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+sudo apt-get -y install cmake build-essential g++-6
 
 
 # bamm
