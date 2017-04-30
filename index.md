@@ -55,7 +55,7 @@ C++ or other languages
 
 - [RAxML v8 AVX2 PTHREADS](http://sco.h-its.org/exelixis/web/software/raxml/index.html) ~80 MB
 - [MAFFT v7.273](http://mafft.cbrc.jp/alignment/software/) ~10 MB
-- [Exabayes v1.4.1 AVX open-MPI](http://sco.h-its.org/exelixis/web/software/exabayes/index.html) ~200 MB
+- [Exabayes v1.5 AVX MPI-enabled](http://sco.h-its.org/exelixis/web/software/exabayes/index.html) ~200 MB
 - [RogueNaRok v1.0](http://sco.h-its.org/exelixis/web/software/roguenarok/roguenarok.html) ~20 MB
 - [BEAST v2.3.2](http://beast2.org) ~600 MB
 - [PhyML v2 20120412-2](http://www.atgc-montpellier.fr/phyml/) ~20 MB
