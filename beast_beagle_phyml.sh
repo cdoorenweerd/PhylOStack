@@ -10,7 +10,7 @@
 # dependencies
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe"
-sudo apt-get -y update >> /home/ubuntu/BEAST_installation.log
+sudo apt-get -y update
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections 
 sudo apt-get -y install oracle-java8-installer
 sudo apt-get -y install oracle-java8-set-default
