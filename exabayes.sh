@@ -16,7 +16,7 @@ cd /usr/local/
 sudo wget http://sco.h-its.org/exelixis/resource/download/software/exabayes-1.5.tar.gz
 sudo tar -xzf exabayes-1.5.tar.gz -C /usr/local/
 cd /usr/local/exabayes-1.5/
-./configure --enable-mpi && make -j 4
+./configure --enable-mpi && make -j 2
 sudo ln -s /usr/local/exabayes-1.5/exabayes /usr/bin/exabayes
 sudo ln -s /usr/local/exabayes-1.5/consense /usr/bin/consense
 sudo /sbin/ldconfig -v
