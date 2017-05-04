@@ -2,6 +2,9 @@
 #
 # This simple script will execute all the installation scripts
 
+# prevent 'unknown host' warning messages
+sudo sed -ie "1 s/$/ $(hostname)/" /etc/hosts
+
 echo "PHYLOSTACK INSTALLATION LOG" > /home/ubuntu/PhylOStack_installation.log
 
 echo "###############################################################" > /home/ubuntu/PhylOStack_installation.log
